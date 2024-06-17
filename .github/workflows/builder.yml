@@ -19,6 +19,15 @@ on:
               description: 'Baseband Version'
               required: true
               default: 'A035FXXS6CXA3'
+              
+        BOOT: 
+              description: 'Enter Direct Link Of Your Version Boot'
+              required: true
+              default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03-backup/boot.img'
+        RECOVERY:
+              description: 'Enter Direct Link Of Your Version Recovery'
+              required: true
+              default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03-backup/recovery.img'
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
@@ -55,6 +64,8 @@ jobs:
     - name: Preparing Files
       run: |
         cd lpbinary/binary
+        wget ${{ github.event.inputs.BOOT }}
+        wget ${{ github.event.inputs.RECOVERY }}
         wget ${{ github.event.inputs.VENDOR }}
         wget https://sourceforge.net/projects/a03-files/files/product.img
         wget https://sourceforge.net/projects/a03-files/files/system_ext.img
