@@ -18,11 +18,11 @@ on:
         VERSION:
               description: 'Baseband Version'
               required: true
-              default: 'A035FXXU4CWI1'
+              default: 'A035FXXS6CXA3'
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://sourceforge.net/projects/a03-files/files/A035FXXU4CWI1/vendor.img'
+              default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03/vendor.img'
 jobs:
   Build:
     runs-on: ubuntu-latest
