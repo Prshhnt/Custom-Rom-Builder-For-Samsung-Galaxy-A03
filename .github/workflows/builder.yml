@@ -10,19 +10,19 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://github.com/ponces/treble_build_aosp/releases/download/v2023.12.01/aosp-arm64-ab-gapps-14.0-20231201.img.xz'        
+              default: 'https://sourceforge.net/projects/risingos-official/files/3.x/CORE/GSI/RisingOS-3.2-20240602-RELEASE-CORE-OFFICIAL-arm64_bcgN.img.xz/download'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'aosp-arm64-ab-gapps-14.0-a03.7z'
+              default: 'RisingOS 3.2 for Galaxy A03 (20240602)'
         VERSION:
               description: 'Baseband Version'
               required: true
-              default: 'A035FXXS6CXA3'
+              default: 'A035FXXU4CWI1'
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03/vendor.img'
+              default: 'https://sourceforge.net/projects/a03-files/files/A035FXXU4CWI1/vendor.img'
 jobs:
   Build:
     runs-on: ubuntu-latest
