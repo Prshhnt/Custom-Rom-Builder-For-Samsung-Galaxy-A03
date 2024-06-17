@@ -10,19 +10,19 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://sourceforge.net/projects/risingos-official/files/3.x/CORE/GSI/RisingOS-3.2-20240602-RELEASE-CORE-OFFICIAL-arm64_bcgN.img.xz'        
+              default: 'https://github.com/ahnet-69/treble_evo/releases/download/v8.3-20240207/evolution_arm64_bgN_slim-8.3-unofficial-20240207.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'RisingOS 3.2 for Galaxy A03 (20240602)'
+              default: 'Evolution-X 8.3 20240207 for Galaxy A03'
         VERSION:
               description: 'Baseband Version'
               required: true
-              default: 'A035FXXU4CWI1'
+              default: 'A035FXXS6CXA3'
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://sourceforge.net/projects/a03-files/files/A035FXXU4CWI1/vendor.img'
+              default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03/vendor.img'
 jobs:
   Build:
     runs-on: ubuntu-latest
