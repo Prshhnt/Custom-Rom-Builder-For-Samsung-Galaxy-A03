@@ -10,11 +10,11 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://github.com/ahnet-69/treble_evo/releases/download/v8.3-20240207/evolution_arm64_bgN_slim-8.3-unofficial-20240207.img.xz'        
+              default: 'https://sourceforge.net/projects/andyyan-gsi/files/lineage-21-td/lineage-21.0-20240526-UNOFFICIAL-arm64_bvN.img.xz/'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'evolution_arm64_bgN_slim-8.3-unofficial-a03.7z'
+              default: 'lineage-21.0-20240526-UNOFFICIAL-arm64_vanilla-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
