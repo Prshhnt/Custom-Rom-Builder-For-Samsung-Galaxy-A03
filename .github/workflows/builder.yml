@@ -33,7 +33,7 @@ on:
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03/vendor.img'
+              default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03-backup/vendor.img'
 jobs:
   Build:
     runs-on: ubuntu-latest
