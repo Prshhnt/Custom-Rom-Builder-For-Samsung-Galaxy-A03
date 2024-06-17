@@ -10,7 +10,7 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://sourceforge.net/projects/risingos-official/files/3.x/CORE/GSI/RisingOS-3.2-20240602-RELEASE-CORE-OFFICIAL-arm64_bcgN.img.xz/download'        
+              default: 'https://sourceforge.net/projects/risingos-official/files/3.x/CORE/GSI/RisingOS-3.2-20240602-RELEASE-CORE-OFFICIAL-arm64_bcgN.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
