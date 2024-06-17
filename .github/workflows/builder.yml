@@ -24,10 +24,12 @@ on:
               description: 'Enter Direct Link Of Your Version Boot'
               required: true
               default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03-backup/boot.img'
+              
         RECOVERY:
               description: 'Enter Direct Link Of Your Version Recovery'
               required: true
               default: 'https://github.com/xavier110/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/a03-backup/recovery.img'
+              
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
