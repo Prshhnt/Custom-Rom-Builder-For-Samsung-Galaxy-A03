@@ -14,7 +14,7 @@ on:
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'Evolution-X 8.3 20240207 for Galaxy A03'
+              default: 'evolution_arm64_bgN_slim-8.3-unofficial-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
