@@ -10,11 +10,11 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20240419-UNOFFICIAL-arm64_bvN.img.xz'        
+              default: 'https://github.com/ponces/treble_build_pe/releases/download/v2023.09.14-plus/PixelExperience_Plus_arm64-ab-slim-13.0-20230914-UNOFFICIAL.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'lineage-19.1-20240419-UNOFFICIAL-arm64_vanilla-a03.7z'
+              default: 'PixelExperience_Plus_arm64-ab-slim-13.0-20230914-UNOFFICIAL-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
