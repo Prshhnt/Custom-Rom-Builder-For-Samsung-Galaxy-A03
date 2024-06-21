@@ -14,7 +14,7 @@ on:
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'PixelExperience_Plus_arm64-ab-slim-13.0-20230914-UNOFFICIAL-a03.7z'
+              default: 'RisingOS-3.2-20240602-RELEASE-VANILLA_AOSP-OFFICIAL-arm64_vanilla-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
