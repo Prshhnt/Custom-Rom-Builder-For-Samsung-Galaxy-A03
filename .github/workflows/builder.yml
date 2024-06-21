@@ -10,7 +10,7 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://github.com/ponces/treble_build_pe/releases/download/v2023.09.14-plus/PixelExperience_Plus_arm64-ab-slim-13.0-20230914-UNOFFICIAL.img.xz'        
+              default: 'https://sourceforge.net/projects/risingos-official/files/3.x/VANILLA/GSI/RisingOS-3.2-20240602-RELEASE-VANILLA_AOSP-OFFICIAL-arm64_bvN.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
