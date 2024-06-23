@@ -10,11 +10,11 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://sourceforge.net/projects/risingos-official/files/3.x/VANILLA/GSI/RisingOS-3.2-20240602-RELEASE-VANILLA_AOSP-OFFICIAL-arm64_bvN.img.xz'        
+              default: 'https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2014/PixelOS_treble_arm64_bN-14.0-20240512.img.xz/'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'RisingOS-3.2-20240602-RELEASE-VANILLA_AOSP-OFFICIAL-arm64_vanilla-a03.7z'
+              default: 'PixelOS_treble_arm64_bN-14.0-20240512-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
