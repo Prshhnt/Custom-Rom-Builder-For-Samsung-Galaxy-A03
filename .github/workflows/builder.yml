@@ -10,7 +10,7 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2014/PixelOS_treble_arm64_bN-14.0-20240512.img.xz/'        
+              default: 'https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2014/PixelOS_treble_arm64_bN-14.0-20240512.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
