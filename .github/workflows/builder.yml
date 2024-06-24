@@ -10,11 +10,11 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2014/PixelOS_treble_arm64_bN-14.0-20240512.img.xz'        
+              default: 'https://github.com/ChonDoit/treble_peplus_patches/releases/download/A13/PE-Plus_A13-RO-arm64-bgN-slim_20240622.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'PixelOS_treble_arm64_bN-14.0-20240512-a03.7z'
+              default: 'PE-Plus_A13-RO-arm64-bgN-slim_20240622-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
